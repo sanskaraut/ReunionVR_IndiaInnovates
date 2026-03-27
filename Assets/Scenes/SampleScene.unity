@@ -3471,6 +3471,59 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8062554a80622d41b1797147718349a, type: 3}
+--- !u!1 &1922282170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1922282172}
+  - component: {fileID: 1922282171}
+  m_Layer: 0
+  m_Name: WebSocketManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1922282171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922282170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d32cd72687261348b2ae3f7884e5498, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serverIP: 172.22.96.202
+  serverPort: 3001
+  modelContainer: {fileID: 0}
+  environmentAudio: {fileID: 0}
+  environmentLight: {fileID: 0}
+  modelSpacing: 3
+  isConnected: 0
+  lastCommand: None
+  loadedModelCount: 0
+--- !u!4 &1922282172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922282170}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.02440695, y: 2.119696, z: 0.9784057}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &1109407790274764220 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 6431073450290906438, guid: 1782b89ac15b3c34cbc28f0ede57d895, type: 3}
@@ -3727,3 +3780,4 @@ SceneRoots:
   - {fileID: 1381369179}
   - {fileID: 1390060637}
   - {fileID: 1869533342}
+  - {fileID: 1922282172}
